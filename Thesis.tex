@@ -1,0 +1,73 @@
+\documentclass [11pt,twoside]{report}
+\pagestyle{plain}
+\usepackage{geometry}
+\geometry{a4paper,inner=40mm,outer=20mm,top=30mm,bottom=20mm}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{caption}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{url}
+\usepackage{aas_macros}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage[round]{natbib}
+\bibliographystyle{natbib}
+%\bibliographystyle{abbrvnat}
+%\bibliographystyle{plainnat}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{bold-extra}
+\usepackage{amssymb}
+\usepackage[flushleft]{threeparttable}
+\usepackage{float}
+\usepackage{titling}
+\usepackage{wrapfig}
+\usepackage{physics}
+\usepackage{lscape}
+\usepackage[toc,page]{appendix}
+\usepackage[normalem]{ulem}
+\newcommand{\sarah}[1]{\textcolor{cyan}{#1}}
+\newcommand{\new}[1]{\textcolor{red}{#1}}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\title{Aspects Associated with the Use of M-dwarf Stars in Exoplanet Searches}
+\author{John Bentley}
+\begin{document}
+\pagenumbering{gobble}
+\begin{titlingpage}
+\begin{center}
+\includegraphics[scale=0.1]{UNSW_coat_of_arms.png}\\
+\vspace{2cm}
+\begin{Large} 
+\textbf{\thetitle}\\
+\vspace{1cm}
+A thesis submitted in fulfilment of the requirements for the degree of Doctor of Philosophy.\\
+\vspace{1cm}
+\theauthor\\
+School of Physics\\
+University of New South Wales\\
+\vspace{1cm}
+Supervisors:\\
+Professor Chris Tinney \& Associate Professor Sarah Martell
+\end{Large}
+\end{center}
+\end{titlingpage}
+%\include{Chapter0-GRIS}
+\tableofcontents
+\listoffigures
+\listoftables
+\include{Acknowledgements}
+\include{Abstract}
+\include{Chapter1-Background}
+\include{Chapter2-PhotometricSelection}
+\include{Chapter3-ISV}
+\include{Chapter4-GALAH}
+\include{Chapter5-Conlusions}
+\include{Appendix}
+\typeout{}
+\bibliography{Report}
+\end{document}
